@@ -1,0 +1,93 @@
+.survey{
+    border: 1px solid black;
+    background-color: rgb(113, 12, 207);
+    width: 40%;
+    height: 750px;
+    margin-left: 30%;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details{
+    margin: 20px;
+    /* background-color: aqua; */
+   
+}
+.info{
+    margin: 20px;
+    /* background-color: aquamarine; */
+    padding-bottom: 15px;
+    
+}
+h1{
+    text-align: center;
+}
+.container{
+    background-color: rgb(27, 27, 211);
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .name{
+    margin: 10px;
+    
+  }
+  .email{
+    margin: 10px;
+    
+  }
+  .adress{
+    margin: 10px;
+  }
+  .number{
+    margin: 10px;
+  }
+  
+  li {
+    padding: 5px;
+    margin: 5px 0;
+  }
+  #name{
+    border-radius: 5px;
+  }
+  #adress{
+    border-radius: 5px;
+  }
+  #number{
+    border-radius: 5px;
+  }
+  #email{
+    border-radius: 5px;
+   
+  }
+  #description{
+    margin-left: 10px;
+    margin-bottom: 10px;
+   
+    }
+  textarea {
+    display: block;
+    
+    padding-right: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+  }
+  p{
+    margin: 10px;
+  }
+  
+  .button{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+.gender{
+  display: block;
+}

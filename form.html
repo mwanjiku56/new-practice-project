@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <div class="container">
+      
+      <form class="survey">
+        <h1>Beginner Survey Form</h1>
+        <div class="details">
+          
+          <fieldset>
+            <legend>Personal Details</legend>
+            <div class="name">
+              <label for="name">Name:</label>
+              <input
+              type="text"
+              id="name"
+              name="names"
+              placeholder="Enter your name"
+              /><br />
+            </div>
+            <div class="adress">
+              <label for="adress">Address:</label>
+              <input
+              type="text"
+              id="adress"
+              name="adress"
+              placeholder="Enter your Adress"
+              /><br />
+            </div>
+            <div class="email">
+              <label for="email">Email:</label>
+              <input
+              type="email"
+              id="email"
+              name="names"
+              placeholder="Enter your email address"
+              /><br />
+            </div>
+          
+            <div class="number">
+              <label for="number">Number:</label>
+              <input
+              type="number"
+              id="number"
+              name="num"
+              placeholder="Enter your number"
+              /><br />
+            </div>
+            <div class="gender">
+              <p>Please select your gender:</p>
+
+              <input type="radio" name="gender" value="male" />
+              <label for="male">Male</label>
+              
+              <input type="radio" name="gender" value="female" />
+              <label for="male">Female</label>
+              
+              <input
+                  type="radio"
+                  name="gender"
+                  value="non-binary"
+                />
+                <label for="male">Non-binary</label>
+
+                <input type="radio" name="gender" value="prefer-not-to-say" />
+                <label for="male">Prefer not to say</label>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="info">
+          <fieldset>
+            <legend>Additional Information</legend>
+            <textarea
+              id="description"
+              name="description"
+              rows="10"
+              cols="50"
+              placeholder="Enter your background information"
+            ></textarea>
+          </fieldset>
+        </div>
+        <button class="button">Submit</button>
+     </form>
+    </div>
+  </body>
+</html>
